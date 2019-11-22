@@ -1,0 +1,28 @@
+.formbody {
+    background-color: rgb(247, 226, 195);
+}
+.titlepage {
+    color: crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8vw;
+    margin: 30px;
+    text-transform: uppercase;
+}
+.signup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.50vw;
+    text-transform: uppercase;
+}
+.firstname {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastname {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.password {
+    font-family: Arial, Helvetica, sans-serif;
+}

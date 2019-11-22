@@ -1,0 +1,30 @@
+.body {
+    background-color: rgb(247, 226, 195);
+}
+.webtitle {
+    color: crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8vw;
+    margin: 30px;
+    text-transform: uppercase;
+}
+.welcome {
+    font-family: fantasy;
+    text-decoration: underline black;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+    font-weight: bold;
+}
+.p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.shoeimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
