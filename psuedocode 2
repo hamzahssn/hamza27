@@ -1,0 +1,19 @@
+STORE "kecepatan" to 0
+
+IF "penumpang >4"
+    DISPLAY "error"
+
+IF " 0 penumpang"
+    DO "kecepatan" to 20
+
+IF "lebih dari 2 penumpang"
+    DO "kecepatan" to 15
+
+IF "4 penumpang"
+    DO "kecepatan" to 13
+
+IF "penumpang <3"
+    DO "kecepatan" to 18
+ELSE "kecepatan" to 16
+
+DISPLAY "kecepatan becak"     

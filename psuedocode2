@@ -1,0 +1,22 @@
+INPUT = 12:00
+OUTPUT = 0
+
+IF "time" =>12:00 to <= 24:00
+    INPUT -12:00
+DISPLAY INPUT
+
+
+
+
+IF "jam" 12
+    ADD "jam by 1
+
+IF "menit" 90
+    ADD "menit" by -60
+
+OUTPUT jam:13 menit: 90
+
+pseudocode
+
+jam = jam + pembulatan kebawah(minute/60)
+minute = minute mod 60

@@ -1,0 +1,30 @@
+@import "Background.css";
+
+.h1-color {
+background-color: aquamarine;
+}
+
+.h2-color {
+    color: blue; background-color: chartreuse;
+}
+
+.h3-color {
+    color: crimson; background-color: darksalmon;
+}
+
+button {
+    transition: all 1s;
+}
+
+button:hover {
+    color: firebrick; background-color: gold;
+}
+
+@keyframes muter {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.muter {
+    animation: muter 3s linear infinite;
+}
