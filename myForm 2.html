@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>latihan form</title>
+        <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/royal-crowns/512/royal-alphabet-crown-letter-english-h-512.png" type="image/icon">
+    </head>
+    <body>
+        <form action="index.html" method="POST" onsubmit="return false">
+            <fieldset>
+                <legend>Data Pribadi</legend>
+                <p>
+                    <label for="myEmail">nama :</label>
+                    <input id="myEmail" type="text">
+                </p>
+                <p>
+                    <label for="myNum">number :</label>
+                    <input id="myNum" type="number" />
+                </p>
+            </fieldset>
+            <fieldset>
+                <label>Select Programming Language</label>
+                <select name="Programming Language">
+                    <option value="Javascript">Javascript</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Python">Python</option>
+                </select>
+            </fieldset>
+            <fieldset> 
+                <label>Gender :</label>
+                 <input type="radio" name="gender" value="male" checked> Male
+                 <input type="radio" name="gender" value="female"> Female
+                 <input type="radio" name="gender" value="other"> Other
+            </fieldset>
+            <br><br>
+            <input type="Submit">
+            <ul>
+        
+            </ul>
+        </form>
+        <script src=myform.js></script>
+    </body>
+</html>
